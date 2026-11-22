@@ -60,7 +60,8 @@
   }
 
   function shell(content) {
-    app.innerHTML = header() + `<main>${content}</main>`;
+    app.innerHTML = header() + `<main>${content}</main>
+      <footer class="creator-footer">Actividad interactiva creada por Rafael Arrebola y Sergio Jodral, profesores de matemáticas usando tecnología IA</footer>`;
   }
 
   function render() {
